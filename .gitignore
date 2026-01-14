@@ -1,0 +1,9 @@
+# environment variables
+.env
+
+# Airflow specific files and directories
+logs/
+airflow.cfg
+
+# files auto-created by Python
+__pycache__/
