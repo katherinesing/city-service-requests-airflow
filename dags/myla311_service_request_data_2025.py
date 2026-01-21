@@ -22,7 +22,6 @@ socrata_app_token = os.getenv("SOCRATA_APP_TOKEN")
     start_date=datetime(2025, 1, 1),
     end_date=datetime(2028, 12, 31),
     catchup=False,
-    # default_args={"retries": 4},  # Retry up to 4 times on failure (e.g. API timeouts)
 )
 def myla311_service_request_data_2025() -> None:
 
