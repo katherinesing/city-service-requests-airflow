@@ -12,6 +12,9 @@ To run database migrations and create the first user account \
 ```docker compose up airflow-init``` \
 you should see this result: airflow-init-1 exited with code 0
 
+
+```docker compose build```
+
 To start the airflow cluster \
 ```docker compose up -d``` \
 When cluster is up, go to http://localhost:8080 \
